@@ -1,0 +1,28 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Testing Jenkins for node project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drahul540/Jenkins-demo.git"
+  },
+  "keywords": [
+    "jenkins",
+    "cicd"
+  ],
+  "author": "drahul540",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drahul540/Jenkins-demo/issues"
+  },
+  "homepage": "https://github.com/drahul540/Jenkins-demo#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
